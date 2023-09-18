@@ -1,0 +1,14 @@
+{
+  "name": "projectcypressdemoblaze",
+  "version": "1.0.0",
+  "description": "demo for demoblaze.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "Jose Moreno",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
