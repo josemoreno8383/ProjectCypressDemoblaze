@@ -4,7 +4,8 @@
   "description": "demo for demoblaze.com",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "open:demoblaze:test": "cp cypress.env.test.json cypress.env.json && cypress open --config baseUrl=https://www.demoblaze.com",
+    "run:demoblaze:test": "cp cypress.env.test.json cypress.env.json && cypress run -b chrome -s\"cypress/e2e/**/*\" -c baseUrl=https://www.demoblaze.com,video=false"
   },
   "author": "Jose Moreno",
   "license": "ISC",
